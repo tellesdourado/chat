@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tellesdourado/chat.git",
+  "author": "Teles Dourado <tellesdourado@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@types/ws": "^7.4.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.12.2",
+    "uuidv4": "^6.2.7",
+    "websocket": "^1.0.33",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}
